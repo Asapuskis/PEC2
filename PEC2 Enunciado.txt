@@ -1,0 +1,13 @@
+El ejercicio consiste en entregar un Notebook con los siguientes puntos:
+
+* Utilizar el API REST de StackEchange (https://api.stackexchange.com/) para obtener una muestra de más de 1000 preguntas sobre un tag concreto. Por ejemplo, el tag podría ser "python". Convertir esos datos en un DataFrame con al menos los siguientes elementos: identificador de usuario, identificador de pregunta, título, si se ha contestado o no, número de veces que se ha visto y fecha de creación. Sobre ese DataFrame , hacer lo siguiente:
+	- Buscar la pregunta más antigua no contestada.
+	- Obtener y dibujar la distribución de las visitas.
+* Sobre el DataFrame anterior, incluir columnas adicionales obteniendo información del API sobre la respuesta más valorada a cada pregunta, con al menos el identificador de la respuesta, la puntuación, la fecha en que se creó y el identificador del usuario que respondió.
+* Sobre el DataFrame anterior, extraer todos los usuarios diferentes que aparecen, y obtener el usuario de mayor y de menor reputación.
+
+
+NOTA:
+
+Los tres apartados corresponden, respectivamente a los niveles básico, medio y avanzado.
+Para realizarlos hay que invocar a algunas de las llamadas del API de StackExchange, es conveniente primero probarlo con la interfaz de la documentación. Por ejemplo: probar con un identificador concreto de pregunta en la interfaz que aparece al final de esta página: https://api.stackexchange.com/docs/answers-on-questions
